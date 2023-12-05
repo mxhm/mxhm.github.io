@@ -1,84 +1,173 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{kailas2023notecontrast,
+  title = {NoteContrast: Contrastive Language-Diagnostic Pretraining for Medical Text},
+  author = {Kailas*, Prajwal and Homilius*, Max and Deo, Rahul C. and MacRae, Calum A.},
+  date = {2023/12/10},
+  journal = {Machine Learning for Health},
+  html = {http://ml4h.cc/2023/proceedings_pdfs/kailas23.pdf},
+  year = {2023},
+  abstract = {Accurate diagnostic coding of medical notes is crucial for enhancing patient care, medical re- search, and error-free billing in healthcare orga- nizations. Manual coding is a time-consuming task for providers, and diagnostic codes often exhibit low sensitivity and specificity, whereas the free text in medical notes can be a more precise description of a patient’s status. Thus, accurate automated diagnostic coding of med- ical notes has become critical for a learning healthcare system. Recent developments in long-document transformer architectures have enabled attention-based deep-learning models to adjudicate medical notes. In addition, con- trastive loss functions have been used to jointly pre-train large language and image models with noisy labels. To further improve the automated adjudication of medical notes, we developed an approach based on i) models for ICD-10 diag- nostic code sequences using a large real-world data set, ii) large language models for medi- cal notes, and iii) contrastive pre-training to build an integrated model of both ICD-10 di- agnostic codes and corresponding medical text. We demonstrate that a contrastive approach for pre-training improves performance over prior state-of-the-art models for the MIMIC-III-50, MIMIC-III-rare50, and MIMIC-III-full diagnos- tic coding tasks.},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+@article{homilius2023perturbational,
+  title = {Perturbational phenotyping of human blood cells reveals genetically determined latent traits associated with subsets of common diseases},
+  author = {Homilius*, Max and Zhu*, Wandi and Eddy, Samuel S. and Thompson, Patrick C. and Zheng, Huahua and Warren, Caleb N. and Evans, Chiara G. and Kim, David D. and Xuan, Lucius L. and Nsubuga, Cissy and Strecker, Zachary and Pettit, Christopher J. and Cho, Jungwoo and Howie, Mikayla N. and Thaler, Alexandra S. and Wilson, Evan and Wollison, Bruce and Smith, Courtney and Nascimben, Julia B. and Nascimben, Diana N. and Lunati, Gabriella M. and Folks, Hassan C. and Cupelo, Matthew and Sridaran, Suriya and Rheinstein, Carolyn and McClennen, Taylor and Goto, Shinichi and Truslow, James G. and Vandenwijngaert, Sara and MacRae, Calum A. and Deo, Rahul C.},
+  date = {2023/12/04},
+  doi = {10.1038/s41588-023-01600-x},
+  id = {Homilius2023},
+  isbn = {1546-1718},
+  journal = {Nature Genetics},
+  html = {https://www.nature.com/articles/s41588-023-01600-x},
+  year = {2023},
+  abstract = {Although genome-wide association studies (GWAS) have successfully linked genetic risk loci to various disorders, identifying underlying cellular biological mechanisms remains challenging due to the complex nature of common diseases. We established a framework using human peripheral blood cells, physical, chemical and pharmacological perturbations, and flow cytometry-based functional readouts to reveal latent cellular processes and performed GWAS based on these evoked traits in up to 2,600 individuals. We identified 119 genomic loci implicating 96 genes associated with these cellular responses and discovered associations between evoked blood phenotypes and subsets of common diseases. We found a population of pro-inflammatory anti-apoptotic neutrophils prevalent in individuals with specific subsets of cardiometabolic disease. Multigenic models based on this trait predicted the risk of developing chronic kidney disease in type 2 diabetes patients. By expanding the phenotypic space for human genetic studies, we could identify variants associated with large effect response differences, stratify patients and efficiently characterize the underlying biology.},
+}
+
+@article{yosef2011anat,
+  title={ANAT: a tool for constructing and analyzing functional protein networks},
+  author={Yosef, Nir and Zalckvar, Einat and Rubinstein, Assaf D and Homilius, Max and Atias, Nir and Vardi, Liram and Berman, Igor and Zur, Hadas and Kimchi, Adi and Ruppin, Eytan and others},
+  journal={Science signaling},
+  volume={4},
+  number={196},
+  pages={pl1--pl1},
+  year={2011},
+  publisher={American Association for the Advancement of Science},
+  doi={10.1126/scisignal.2001935},
+  html={https://www.science.org/doi/10.1126/scisignal.2001935},
+  abstract={Genome-scale screening studies are gradually accumulating a wealth of data on the putative involvement of hundreds of genes in various cellular responses or functions. A fundamental challenge is to chart the molecular pathways that underlie these systems. ANAT is an interactive software tool, implemented as a Cytoscape plug-in, for elucidating functional networks of proteins. It encompasses a number of network inference algorithms and provides access to networks of physical associations in several organisms. In contrast to existing software tools, ANAT can be used to infer subnetworks that connect hundreds of proteins to each other or to a given set of “anchor” proteins, a fundamental step in reconstructing cellular subnetworks. The interactive component of ANAT provides an array of tools for evaluating and exploring the resulting subnetwork models and for iteratively refining them. We demonstrate the utility of ANAT by studying the crosstalk between the autophagic and apoptotic cell death modules in humans, using a network of physical interactions. Relative to published software tools, ANAT is more accurate and provides more features for comprehensive network analysis. The latest version of the software is available at http://www.cs.tau.ac.il/~bnet/ANAT_SI.}
+}
+
+@article{homilius2011cocos,
+  title={Cocos: Constructing multi-domain protein phylogenies},
+  author={Homilius, Max and Wiedenhoeft, John and Thieme, Sebastian and Standfu{\ss}, Christoph and Kel, Ivan and Krause, Roland},
+  journal={PLoS currents},
+  volume={3},
+  year={2011},
+  publisher={Public Library of Science},
+}
+
+@article{goya2015fntm,
+  title={FNTM: a server for predicting functional networks of tissues in mouse},
+  author={Goya, Jonathan and Wong, Aaron K and Yao, Victoria and Krishnan, Arjun and Homilius, Max and Troyanskaya, Olga G},
+  journal={Nucleic acids research},
+  volume={43},
+  number={W1},
+  pages={W182--W187},
+  year={2015},
+  publisher={Oxford University Press},
+  doi={10.1093/nar/gkv443},
+  html={https://academic.oup.com/nar/article/43/W1/W182/2467911?login=false},
+  abstract={Functional Networks of Tissues in Mouse (FNTM) provides biomedical researchers with tissue-specific predictions of functional relationships between proteins in the most widely used model organism for human disease, the laboratory mouse. Users can explore FNTM-predicted functional relationships for their tissues and genes of interest or examine gene function and interaction predictions across multiple tissues, all through an interactive, multi-tissue network browser. FNTM makes predictions based on integration of a variety of functional genomic data, including over 13 000 gene expression experiments, and prior knowledge of gene function. FNTM is an ideal starting point for clinical and translational researchers considering a mouse model for their disease of interest, researchers already working with mouse models who are interested in discovering new genes related to their pathways or phenotypes of interest, and biologists working with other organisms to explore the functional relationships of their genes of interest in specific mouse tissue contexts. FNTM predicts tissue-specific functional relationships in 200 tissues, does not require any registration or installation and is freely available for use at http://fntm.princeton.edu.},
+}
+
+@inproceedings{homilius2010triplet,
+  title={Triplet-Supertrees constructed from Minimum Triplet Presentations.},
+  author={Homilius, Max and Burleigh, John Gordon and Eulenstein, Oliver},
+  booktitle={BICoB},
+  pages={127--132},
+  year={2010}
+}
+
+@article{goto2021discovery,
+  title={Discovery of cardiac imaging biomarkers by training neural network models across diagnostic modalities},
+  author={Goto, Shinichi and Werdich, Andreas A and Homilius, Max and John, Jenine E and Gan, Li-Ming and MacRae, Calum A and DiCarli, Marcelo F and Deo, Rahul C},
+  journal={medRxiv},
+  pages={2021--02},
+  year={2021},
+  publisher={Cold Spring Harbor Laboratory Press},
+  doi={10.1101/2021.02.07.21251025},
+  html={https://www.medrxiv.org/content/10.1101/2021.02.07.21251025v1},
+  abstract={Machines can be readily trained to automate medical image interpretation, with the primary goal of replicating human capabilities. Here, we propose an alternative role: using machine learning to discover pragmatic imaging-based biomarkers by interpreting one complex imaging modality via a second, more ubiquitous, lower-cost modality. We applied this strategy to train convolutional neural network models to estimate positron emission tomography (PET)-derived myocardial blood flow (MBF) at rest and with hyperemic stress, and their ratio, coronary flow reserve (CFR), using contemporaneous two-dimensional echocardiography videos as inputs. The resulting parameters, echoAI-restMBF, echoAI-stressMBF, and echoAI-CFR modestly approximated the original values. However, using echocardiograms of 5,393 (derivation) and 5,289 (external validation) patients, we show they sharply stratify individuals according to disease comorbidities and combined with baseline demographics, are strong predictors for heart failure hospitalization (C-statistic derivation: 0.79, 95% confidence interval 0.77-0.81; validation: 0.81, 0.79-0.82) and acute coronary syndrome (C-statistic derivation: 0.77, 0.73-0.80; validation: 0.75, 0.73-0.78). Using echocardiograms of 3,926 genotyped individuals, we estimate narrow-sense heritability of 9.2%, 20.4% and 6.5%, respectively for echoAI-restMBF, echoAI-stressMBF, and echoAI-CFR. MBF indices show inverse genetic correlation with impedance-derived body mass indices, such as fat-free body mass (e.g., ρ=−0.43, q=0.05 for echoAI-restMBF) and resolve conflicting historical data regarding body mass index and CFR. In terms of diseases, genetic association with ischemic heart disease is seen most prominently for echoAI-stressMBF (ρ=−0.37, q=2.4×10−03). We hypothesize that interpreting one imaging modality through another represents a type of “information bottleneck”, capturing latent features of the original physiologic measurements that have relevance across tissues. Thus, we propose a broader potential role for machine learning algorithms in developing scalable biomarkers that are anchored in known physiology, representative of latent biological factors, and are readily deployable in population health applications.}
+}
+
+@article{goto2020artificial,
+  title={Artificial intelligence-enabled event adjudication: estimating delayed cardiovascular effects of respiratory viruses},
+  author={Goto*, Shinichi and Homilius*, Max and John, Jenine E and Truslow, James G and Werdich, Andreas A and Blood, Alexander J and Park, Brian H and MacRae, Calum A and Deo, Rahul C},
+  journal={medRxiv},
+  pages={2020--11},
+  year={2020},
+  publisher={Cold Spring Harbor Laboratory Press},
+  doi={10.1101/2020.11.12.20230706},
+  html={https://www.medrxiv.org/content/10.1101/2020.11.12.20230706v1},
+  abstract={Healthcare systems ideally should be able to draw lessons from historical data, including whether common exposures are associated with adverse clinical outcomes. Unfortunately, structured clinical data, such as encounter diagnostic codes in electronic health records, suffer from multiple limitations and biases, limiting effective learning. We hypothesized that a machine learning approach to automate ascertainment of clinical events and disease history from medical notes would improve upon using structured data and enable the estimation of real-world risks. We sought to test this approach to address a timely goal: estimating the delayed risk of adverse cardiovascular events (i.e. after the index infection) in patients infected with respiratory viruses. Using 4,151 cardiologist-labeled notes as gold standard, we trained a series of neural network models to automate event adjudication for heart failure hospitalization, acute coronary syndrome, stroke, and coronary revascularization and to identify past medical history for heart failure. Though performance varied by task, in nearly all cases, our models surpassed the use of structured data in terms of sensitivity for a given specificity level and enabled principled evaluation of classification thresholds, which is typically impossible to do with diagnostic codes. Deploying our models on more than 17 million notes for 267,596 patients across an extensive integrated delivery network, we found that patients infected with respiratory syncytial virus had a 23% increased risk of delayed heart failure hospitalization over a subsequent 4-year period compared with propensity-score matched patients who had the same test but with negative results (p = 0.003, log-rank). In contrast, we found no such increased risk in patients with a positive influenza viral test compared with a negative test (rate ratio 0.98, p = 0.71). We conclude that convolutional neural network-based models enable accurate clinical labeling at scale, thereby unlocking timely insights from unstructured clinical data.}
+}
+
+@article{zhu2022piezo1,
+  title={PIEZO1 mediates a mechanothrombotic pathway in diabetes},
+  author={Zhu, Wandi and Guo, Shihui and Homilius, Max and Nsubuga, Cissy and Wright, Shane H and Quan, Dajun and Kc, Ashmita and Eddy, Samuel S and Victorio, Rachelle A and Beerens, Manu and others},
+  journal={Science Translational Medicine},
+  volume={14},
+  number={626},
+  pages={eabk1707},
+  year={2022},
+  publisher={American Association for the Advancement of Science},
+  doi={10.1126/scitranslmed.abk1707},
+  html={https://www.science.org/doi/10.1126/scitranslmed.abk1707},
+  abstract={Thrombosis is the leading complication of common human disorders including diabetes, coronary heart disease, and infection and remains a global health burden. Current anticoagulant therapies that target the general clotting cascade are associated with unpredictable adverse bleeding effects, because understanding of hemostasis remains incomplete. Here, using perturbational screening of patient peripheral blood samples for latent phenotypes, we identified dysregulation of the major mechanosensory ion channel Piezo1 in multiple blood lineages in patients with type 2 diabetes mellitus (T2DM). Hyperglycemia activated PIEZO1 transcription in mature blood cells and selected high Piezo1–expressing hematopoietic stem cell clones. Elevated Piezo1 activity in platelets, red blood cells, and neutrophils in T2DM triggered discrete prothrombotic cellular responses. Inhibition of Piezo1 protected against thrombosis both in human blood and in zebrafish genetic models, particularly in hyperglycemia. Our findings identify a candidate target to precisely modulate mechanically induced thrombosis in T2DM and a potential screening method to predict patient-specific risk. Ongoing remodeling of cell lineages in hematopoiesis is an integral component of thrombotic risk in T2DM, and related mechanisms may have a broader role in chronic disease.},
+}
+
+@article{homilius2019automated,
+  title={Automated Disease Detection Using Document Classification Outperforms Encounter-Level Diagnostic Codes for Cardiovascular Diseases},
+  author={Homilius, Max and Blood, Alexander J and Park, Brian H and Yazdi, Daniel and Veytsman, Jason N and MacRae, Calum A and Deo, Rahul C},
+  journal={AHA Poster},
+  volume={140},
+  number={Suppl\_1},
+  pages={A13794--A13794},
+  year={2019},
+  publisher={Am Heart Assoc}
+}
+
+@article{truslow2022cardiovascular,
+  title={Cardiovascular risk assessment using artificial intelligence-enabled event adjudication and hematologic predictors},
+  author={Truslow, James G and Goto, Shinichi and Homilius, Max and Mow, Christopher and Higgins, John M and MacRae, Calum A and Deo, Rahul C},
+  journal={Circulation: Cardiovascular Quality and Outcomes},
+  volume={15},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pages={e008007},
+  year={2022},
+  publisher={Lippincott Williams \& Wilkins Hagerstown, MD},
+  doi={10.1161/CIRCOUTCOMES.121.008007},
+  html={https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.121.008007},
+  abstract={Background: Researchers routinely evaluate novel biomarkers for incorporation into clinical risk models, weighing tradeoffs between cost, availability, and ease of deployment. For risk assessment in population health initiatives, ideal inputs would be those already available for most patients. We hypothesized that common hematologic markers (eg, hematocrit), available in an outpatient complete blood count without differential, would be useful to develop risk models for cardiovascular events. Methods: We developed Cox proportional hazards models for predicting heart attack, ischemic stroke, heart failure hospitalization, revascularization, and all-cause mortality. For predictors, we used 10 hematologic indices (eg, hematocrit) from routine laboratory measurements, collected March 2016 to May 2017 along with demographic data and diagnostic codes. As outcomes, we used neural network-based automated event adjudication of 1 028 294 discharge summaries. We trained models on 23 238 patients from one hospital in Boston and evaluated them on 29 671 patients from a second one. We assessed calibration using Brier score and discrimination using Harrell’s concordance index. In addition, to determine the utility of high-dimensional interactions, we compared our proportional hazards models to random survival forest models. Results:
+Event rates in our cohort ranged from 0.0067 to 0.075 per person-year. Models using only hematology indices had concordance index ranging from 0.60 to 0.80 on an external validation set and showed the best discrimination when predicting heart failure (0.80 [95% CI, 0.79–0.82]) and all-cause mortality (0.78 [0.77–0.80]). Compared with models trained only on demographic data and diagnostic codes, models that also used hematology indices had better discrimination and calibration. The concordance index of the resulting models ranged from 0.75 to 0.85 and the improvement in concordance index ranged up to 0.072. Random survival forests had minimal improvement over proportional hazards models. Conclusions: We conclude that low-cost, ubiquitous inputs, if biologically informative, can provide population-level readouts of risk.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{bansal2014community,
+  title={A community computational challenge to predict the activity of pairs of compounds},
+  author={Bansal, Mukesh and Yang, Jichen and Karan, Charles and Menden, Michael P and Costello, James C and Tang, Hao and Xiao, Guanghua and Li, Yajuan and Allen, Jeffrey and Zhong, Rui and others},
+  journal={Nature biotechnology},
+  volume={32},
+  number={12},
+  pages={1213--1222},
+  year={2014},
+  publisher={Nature Publishing Group US New York},
+  doi={10.1093/nar/gkv443},
+  html={https://academic.oup.com/nar/article/43/W1/W182/2467911?login=false},
+  abstract={Recent therapeutic successes have renewed interest in drug combinations, but experimental screening approaches are costly and often identify only small numbers of synergistic combinations. The DREAM consortium launched an open challenge to foster the development of in silico methods to computationally rank 91 compound pairs, from the most synergistic to the most antagonistic, based on gene-expression profiles of human B cells treated with individual compounds at multiple time points and concentrations. Using scoring metrics based on experimental dose-response curves, we assessed 32 methods (31 community-generated approaches and SynGen), four of which performed significantly better than random guessing. We highlight similarities between the methods. Although the accuracy of predictions was not optimal, we find that computational prediction of compound-pair activity is possible, and that community challenges can be useful to advance the field of in silico compound-synergy prediction.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{goto2022multinational,
+  title={Multinational federated learning approach to train ECG and echocardiogram models for hypertrophic cardiomyopathy detection},
+  author={Goto, Shinichi and Solanki, Divyarajsinhji and John, Jenine E and Yagi, Ryuichiro and Homilius, Max and Ichihara, Genki and Katsumata, Yoshinori and Gaggin, Hanna K and Itabashi, Yuji and MacRae, Calum A and others},
+  journal={Circulation},
+  volume={146},
+  number={10},
+  pages={755--769},
+  year={2022},
+  publisher={Lippincott Williams \& Wilkins Hagerstown, MD},
+  doi={10.1161/CIRCULATIONAHA.121.058696},
+  html={https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058696},
+  abstract={Background: Novel targeted treatments increase the need for prompt hypertrophic cardiomyopathy (HCM) detection. However, its low prevalence (0.5%) and resemblance to common diseases present challenges that may benefit from automated machine learning–based approaches. We aimed to develop machine learning models to detect HCM and to differentiate it from other cardiac conditions using ECGs and echocardiograms, with robust generalizability across multiple cohorts. Methods: Single-institution HCM ECG models were trained and validated on external data. Multi-institution models for ECG and echocardiogram were trained on data from 3 academic medical centers in the United States and Japan using a federated learning approach, which enables training on distributed data without data sharing. Models were validated on held-out test sets for each institution and from a fourth academic medical center and were further evaluated for discrimination of HCM from aortic stenosis, hypertension, and cardiac amyloidosis. Last, automated detection was compared with manual interpretation by 3 cardiologists on a data set with a realistic HCM prevalence. Results: We identified 74 376 ECGs for 56 129 patients and 8392 echocardiograms for 6825 patients at the 4 academic medical centers. Although ECG models trained on data from each institution displayed excellent discrimination of HCM on internal test data (C statistics, 0.88–0.93), the generalizability was limited, most notably for a model trained in Japan and tested in the United States (C statistic, 0.79–0.82). When trained in a federated manner, discrimination of HCM was excellent across all institutions (C statistics, 0.90–0.96 and 0.90–0.96 for ECG and echocardiogram model, respectively), including for phenotypic subgroups. The models further discriminated HCM from hypertension, aortic stenosis, and cardiac amyloidosis (C statistics, 0.84, 0.83, and 0.88, respectively, for ECG and 0.93, 0.94, 0.85, respectively, for echocardiogram). Analysis of electrocardiography-echocardiography paired data from 11 823 patients from an external institution indicated a higher sensitivity of automated HCM detection at a given positive predictive value compared with cardiologists (0.98 versus 0.81 at a positive predictive value of 0.01 for ECG and 0.78 versus 0.59 at a positive predictive value of 0.24 for echocardiogram). Conclusions: Federated learning improved the generalizability of models that use ECGs and echocardiograms to detect and differentiate HCM from other causes of hypertrophy compared with training within a single institution.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{zhu2023prkag2,
+  title={PRKAG2 Directly Interacts With Myosin Heavy Chains to Modulate Myocyte Electrical and Morphological Changes in Cardiac Hypertrophy},
+  author={Zhu, Wandi and Saha, Kusumika and Burch, Micah and KC, Ashmita and Homilius, Max and Victorio, Rachelle and Quan, Dajun and Williams, Alexander and Evans, Chiara and Macrae, Calum},
+  journal={AHA Poster},
+  volume={148},
+  number={Suppl\_1},
+  pages={A16957--A16957},
+  year={2023},
+  publisher={Lippincott Williams \& Wilkins Hagerstown, MD}
 }
