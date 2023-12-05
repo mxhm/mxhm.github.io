@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Fellow, <br> Brigham and Women's Hospital & Harvard Medical School
+subtitle:
 
 profile:
   align: right
   image: mh_profile_bw.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>MacRae Lab</p>
-    <p>221 Longwood Avenue</p>
-    <p>Boston, MA 02115</p>
+  more_info:
+    <p> Research Fellow </p>
+    <p>Brigham and Women's Hospital &</p>
+    <p>Harvard Medical School </p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
