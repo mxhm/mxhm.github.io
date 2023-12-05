@@ -23,4 +23,4 @@ I enjoy working at the interface of computational biology and machine learning t
 
 To gain insights into biological mechanisms, I have conducted genetic association studies using innovative phenotypes like cellular perturbation responses and deep learning-derived cardiac traits in biobank-scale cohorts as well as integrative analyses of sequencing, metabolomic, and proteomic data across human and animal models.
 
-I'm doing a postdoc at the [MacRae Lab](https://macraelab.bwh.harvard.edu) and [One Brave Idea](https://www.onebraveidea.org). I did my PhD in Computer Science at the [Troyanskaya Lab](https://function.princeton.edu).
+I'm a postdoc at the [MacRae Lab](https://macraelab.bwh.harvard.edu) and [One Brave Idea](https://www.onebraveidea.org). I did my PhD in Computer Science at the [Troyanskaya Lab](https://function.princeton.edu).
