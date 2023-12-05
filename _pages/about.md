@@ -22,3 +22,5 @@ social: true  # includes social icons at the bottom of the page
 I enjoy working at the interface of computational biology and machine learning to better understand biology and enhance human health. I have experience in developing deep learning models for the analysis of biomedical data from various modalities, including blood cytometry, electrocardiogram recordings, and medical notes.
 
 To gain insights in biological mechanisms, I have conducted genetic association studies using innovative phenotypes like cellular perturbation responses and deep learning-derived cardiac traits in biobank-scale cohorts as well as integrative analyses of sequencing, metabolomic, and proteomic data across human and animal models.
+
+I'm doing a postdoc at the [MacRae Lab](https://macraelab.bwh.harvard.edu) and [One Brave Idea](https://www.onebraveidea.org). I did my PhD in Computer Science at the [Troyanskaya Lab](https://function.princeton.edu).
