@@ -8,9 +8,9 @@ profile:
   align: right
   image: mh_profile_bw.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
-    <p> Senior Data Scientist </p>
-    <p> Nationwide Children's Hospital</p>
+  # more_info:
+  #   <p> Senior Data Scientist </p>
+  #   <p> Nationwide Children's Hospital</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
